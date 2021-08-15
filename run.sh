@@ -7,4 +7,4 @@
 #SBATCH --time=10:00
 #SBATCH --mem-per-cpu=1
 
-srun --mpi=pmix hello.mpi
+srun --mpi=pmix hello_world.mpi
